@@ -13,5 +13,30 @@
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 50rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home img {
+  max-width: 30rem;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto input {
+  max-width: 50rem;
+  min-width: 20rem;
 }
